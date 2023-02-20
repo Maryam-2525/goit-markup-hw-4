@@ -65,6 +65,9 @@ ul{
 }
 
 /* HEADER */
+.header-bg{
+    background-image:url(/images/background-image) ;
+}
 
 .page-header{
     border-bottom: 1px solid #ECECEC;
@@ -283,7 +286,7 @@ ul{
     color: var(--main-text-color);
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     
 }
 .team-text{ 
@@ -292,7 +295,7 @@ ul{
     line-height: calc(19/16);
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
-    margin-bottom: 16px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
