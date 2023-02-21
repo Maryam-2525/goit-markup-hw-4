@@ -67,6 +67,9 @@ ul{
 /* HEADER */
 .header-bg{
     background-image:url(/images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 .page-header{
@@ -325,6 +328,8 @@ ul{
     padding-bottom: 6px;
 }
 
+
+
 .portfolio-list-item:not(:last-child){
     margin-right: 8px;
 }
@@ -332,7 +337,8 @@ ul{
 .portfolio-btn-item:hover,
 .portfolio-btn-item:focus{
     background-color: var(--other-color);
-    color: var(--white-color);  
+    color: var(--white-color); 
+    box-shadow:0px 1px 2px #000000 ; 
 }
 
 .portfolio-des{
@@ -367,6 +373,12 @@ ul{
     border-radius: 2px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-color: #EEEEEE; 
+}
+
+.port-item:hover,
+.port-item:focus{
+    box-shadow: 1px 4px 6px #000000;
+
 }
 .port-disp-flex{
     display: flex;
