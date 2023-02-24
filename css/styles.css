@@ -216,10 +216,20 @@ ul{
 }
 
 /* FEATURES SECTION */
-.rect-fill{
-    fill: var(--btn-bg-color);
+.features{
+    display: flex;
 }
 
+.features-rect-shape{
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    border-radius: 4pxs;
+}
+
+.features-list-item{
+    margin-left: 15px;
+}
 /* SKILLS SECTION */
 .skills-header{
     vertical-align: Center;
@@ -258,8 +268,7 @@ ul{
     margin-right: 30px;
 }
 
-/* TEAM SECTION */
-
+    
 .team-header{
     text-align: center;
     font-style: normal;
@@ -320,6 +329,17 @@ ul{
 }
 .social-lnk:hover{
     
+}
+/* REGULAR COSTOMERS */
+.rgular-cost-heading{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    margin-bottom: 50px;
 }
 
    
