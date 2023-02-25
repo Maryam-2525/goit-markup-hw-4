@@ -148,6 +148,13 @@ ul{
     color: var(--other-color);
 }
 
+.header-svg-fill{
+    fill: #757575;
+}
+.header-svg-fill:hover{
+    fill: #2196F3;
+}
+
 
 /* HERO */
 .hero-section{
@@ -222,16 +229,14 @@ ul{
 
 .features-rect-shape{
     background-color: #F5F4FA;
+    display: flex;
     width: 270px;
     height: 120px;
+    align-items: center;
+    justify-content: center;
     border-radius: 4px;
-
-}
-
-
-.features-svg:hover,
-.features-svg:focus{
-    fill: #2196f3;
+    margin-top: 53px;
+    margin-bottom: 30px;
 }
 
 .features-list-item:first-child{
@@ -245,10 +250,6 @@ ul{
 .features-list-item:last-child{
     margin-left: 15px;
 }
-
-
-
-
 
 /* SKILLS SECTION */
 
@@ -321,8 +322,6 @@ ul{
 .team-item:not(:last-child){
     margin-right: 30px;
 }
-
-
 .team-des{
     font-style: normal;
     font-weight: 700;
@@ -351,8 +350,13 @@ ul{
 .circle-fill:hover{
     fill: #2196F3;
 }
-.team-smedia-svg:hover{
-    fill: #ffffff;
+
+.team-smedia-svg{
+    fill: #AFB1B8;
+}
+.team-smedia-svg:hover,
+.team-smedia-svg:focus{
+    fill:#ffffff;
 }
 
 .team-smedia-icons{
@@ -370,8 +374,6 @@ ul{
     margin-right: 32px;
 }
 
-
-
 /* REGULAR COSTOMERS */
 .rgular-cust-heading{
     text-align: center;
@@ -381,7 +383,7 @@ ul{
     line-height: calc(42/36);
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-    margin-bottom: 50px;
+    margin-bottom: 50px;  
 }
 
 .rgular-custmers{
@@ -389,8 +391,11 @@ ul{
 }
 
 .rgular-cust-rect-shape{
+    display: flex;
     width: 170px;
     height: 92px;
+    align-items: center;
+    justify-content: center;
     border-radius: 4px;
     border: 1px solid #AFB1BB;
 } 
@@ -407,7 +412,7 @@ ul{
 }
 .rgular-cust-svg:hover,
 .rgular-cust-svg:focus{
-     fill:#2196F3;
+     fill:#2196f3;
     
 }
 
@@ -563,12 +568,11 @@ ul{
 .foot-circle-fill{
     fill:#212121;
 }
+.foot-circle-fill:hover{
+    fill: #2196F3;
+}
 .foot-svg-fill{
     fill: #ffffff;
-}
-.foot-svg-fill:hover,
-.foot-svg-fill:focus{
-    fill: #2196F3;
 }
 
 .footer-social-item:not(:last-child){
