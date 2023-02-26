@@ -70,10 +70,10 @@ ul{
         rgba(47,48,58, 0.4 ),
         rgba(47,48,58, 0.4)
         ),
-        url(/images/background-image.jpg);  
+        url(../images/background-image.jpg);  
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment: fixed;
+    background-position: center;
 }
 
 .page-header{
@@ -150,6 +150,9 @@ ul{
 
 .header-svg-fill{
     fill: #757575;
+}
+.header-svg-fill{
+    margin-right: 10px;
 }
 .header-svg-fill:hover{
     fill: #2196F3;
@@ -235,7 +238,6 @@ ul{
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-    margin-top: 53px;
     margin-bottom: 30px;
 }
 
@@ -361,7 +363,7 @@ ul{
 
 .team-smedia-icons{
     display: flex;
-    margin-top: 0;
+    justify-content: center;
     margin-bottom: 30px;
 }
 .team-social-item:first-child{
@@ -485,7 +487,10 @@ ul{
 }
 .port-border{
     border-radius: 2px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 3 rgba(0, 0, 0, 0.12),
+    0px 4px 4x rgba(0, 0, 0, 0.06),
+    0x 1px 1px  rgba(0, 0, 0, 0.16);
+
     border-color: #EEEEEE; 
 }
 
@@ -566,10 +571,10 @@ ul{
     
 }
 .foot-circle-fill{
-    fill:#212121;
+    color:#212121;
 }
 .foot-circle-fill:hover{
-    fill: #2196F3;
+    color: #2196F3;
 }
 .foot-svg-fill{
     fill: #ffffff;
