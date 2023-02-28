@@ -461,10 +461,8 @@ ul{
     letter-spacing: 0.06em;
     color: var(--main-text-color); 
     text-align: left;
-    margin-left: 24px;
-    margin-top:20px;
     padding: 0;
-    margin-bottom: 10px;
+    padding: 20px 24px;
 }
 
 .portfolio-text{
@@ -479,14 +477,17 @@ ul{
     padding: 0;
     margin-bottom: 24px;
 }
-.port-border{
-    border-radius: 2px;
-    border-color: #EEEEEE; 
+.port-discription{
+    border-bottom:1px solid #eee ;
+    border-left:1px solid #eee ;
+    border-right:1px solid #eee;
 }
 
 .port-item:hover,
 .port-item:focus{
-    box-shadow: 1px 4px 6px #000000;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.12),
+     0px 4px 4px rgba(0, 0, 0, 0.06),
+     1px 4px 6px rgba(0, 0, 0, 0.16);
 
 }
 .port-disp-flex{
@@ -547,9 +548,7 @@ ul{
     letter-spacing: 0.03em;
     color: white;
     margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 
 
@@ -577,6 +576,10 @@ ul{
     justify-content: center;
     color: #ffffff;
 }
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
 .foot-circle-fill:hover{
     background-color: #2196F3;
 }
@@ -585,5 +588,8 @@ ul{
 }
 .footer-social-item:not(:last-child){
     margin-right: 10px;
+}
+.footer-middle-part{
+    margin-left: 70px;
 }
 
